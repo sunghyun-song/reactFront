@@ -57,7 +57,6 @@ class HomeDetail extends Component {
                                             );
                                             }}        
                                         />
-                                    
                                 </div>
                                 <div>
                                 <h4>About Song</h4><br></br>

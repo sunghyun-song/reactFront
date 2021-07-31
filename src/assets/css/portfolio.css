@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+/* header 영역 */
+header {
+  height: 200px;
+  background-color: tomato;
+  display: flex;
+  flex-direction: column; /*수직 배치*/
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}
+
+/* navigation bar */
+nav {
+  display: flex;
+  background-color: #333333;
+}
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 왼쪽 사이드 */
+aside {
+  flex-grow: 3;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+article {
+  flex: 7;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background: #aaaaaa;
+  width: 100%;
+  padding: 20px;
+}
+.myphoto {
+  /* background: #aaaaaa; */
+  width: 100%;
+  padding: 20px;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  background: gray;
+}
+.fakeProject {
+  width: 100%;
+}
+.projectImg {
+  width: 600px;
+  height: 400px;
+  object-fit: fill;
+  margin: 20px;
+  border: 1px solid black;
+}
+.skills {
+  position: relative;
+}
+.skillDiv {
+  display: flex;
+}
+/* 반응형 웹 */
+@media all and (max-width: 600px) {
+  #container,
+  nav {
+    flex-direction: column;
+  }
+}
+@font-face {
+  font-family: "JuaRegular";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../font/Jua-Regular.ttf");
+}

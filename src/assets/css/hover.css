@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,700);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 figure.snip1384 {
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   position: relative;
   overflow: hidden;
   margin: 10px;
@@ -12,8 +12,10 @@ figure.snip1384 {
   color: #ffffff;
   text-align: center;
   font-size: 14px;
+  border-radius: 30%;
+  /* float: left; */
   /* background-color: #000000; */
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 figure.snip1384 * {
   -webkit-box-sizing: border-box;
@@ -33,9 +35,10 @@ figure.snip1384 figcaption {
   bottom: 0;
   left: 0;
   right: 0;
+  border-radius: 30%;
 }
 figure.snip1384:after {
-  content: '';
+  content: "";
   background-color: rgba(0, 0, 0, 0.65);
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
@@ -57,6 +60,7 @@ figure.snip1384 h3 {
   font-size: 1.4em;
   text-transform: uppercase;
   opacity: 0;
+  padding: 15px 0px;
 }
 figure.snip1384 p {
   font-size: 0.8em;

@@ -14,9 +14,9 @@ class Header extends React.Component {
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
 
-        <Navbar fixed="top" color="light" light expand="xs" className="border-bottom border-gray bg-white" style={{ height: 80 }}>
+        <Navbar fixed="top" color="light" light expand="xs" className="border-bottom border-gray bg-white" style={{ width:300,height: 80 }}>
 
-          <Container>
+          <Container  style={{ width:300}}>
             <Row noGutters className="position-relative w-100 align-items-center">
 
               <Col className="d-none d-lg-flex justify-content-start">

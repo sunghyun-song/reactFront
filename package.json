@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "classnames": "2.2.6",
     "headroom.js": "0.11.0",
+    "http-proxy-middleware": "^2.0.0",
     "node-sass": "4.13.1",
     "nouislider": "14.1.1",
     "react": "^16.13.1",
@@ -22,7 +25,7 @@
     "styled-components": "^5.3.0"
   },
   "devDependencies": {
-    "jquery": "3.5.0"
+    "jquery": "^3.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,6 +33,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:7080",
   "eslintConfig": {},
   "browserslist": {
     "production": [
